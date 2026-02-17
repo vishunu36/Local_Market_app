@@ -1,0 +1,51 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #102a43;
+  background: #f0f4f8;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+}
+
+.topbar {
+  background: #0b6e4f;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(16, 42, 67, 0.12);
+}
+
+button {
+  border: none;
+  background: #0b6e4f;
+  color: #fff;
+  padding: 0.65rem 0.8rem;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.actions {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.alert {
+  color: #9f1239;
+  font-weight: 700;
+}

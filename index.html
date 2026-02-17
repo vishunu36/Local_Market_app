@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Market App Prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Local Market</h1>
+      <p>Android-ready prototype</p>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>Weather Alert</h2>
+        <p id="alertText">No critical alerts right now.</p>
+        <button id="simulateAlert">Simulate Thunder Alert</button>
+      </section>
+
+      <section class="card">
+        <h2>Fresh Products</h2>
+        <ul id="products"></ul>
+      </section>
+
+      <section class="card">
+        <h2>Quick Actions</h2>
+        <div class="actions">
+          <button>Login (OTP/Email)</button>
+          <button>Open Cart</button>
+          <button>Track Order</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
